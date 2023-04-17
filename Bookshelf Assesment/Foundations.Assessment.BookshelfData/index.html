@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 class="welcomeText">Welcome<br>To The Library</h1>
+    <div id="navMenu">
+        <h4><a target="_blank" class="navButton" href="index.html">Home</a></h4>
+        <h4><a target="_blank" class="navButton" href="about.html">About</a></h4>
+        <h4><a target="_blank" class="navButton" href="contact.html">Contact</a></h4>
+    </div>
+    <section id="subHeader">
+        <section id="inputArea">
+        <h3 class="newBookHeader">Add a new book here</h3>
+            <label class="inputName">
+                Title<br><input id="title" class='inputBox'> 
+            </label>
+            <label class="inputName">
+                Author(s)<br><input id="author" class='inputBox'>
+            </label>
+            <label class="inputName">
+                Subject(s)<br><input id="subject" class='inputBox'>
+            </label>
+            <label class="inputName">
+                Language<br><input class='inputBox' id="language">
+            </label>
+        <button id="newBookButton">Add Book</button>
+
+        </section>
+        <section id="sortArea">
+            <h3 class="sort">Sort by:</h3>
+            <section id="sortBy">
+                <button class='sortButtons' id="titleaz">Title A-Z</button>
+                <button class='sortButtons' id="titleza">Title Z-A</button>
+                <button class='sortButtons' id="authoraz">Author A-Z</button>
+                <button class='sortButtons' id="authorza">Author Z-A</button>
+            </section>
+        </section>
+    </section>
+
+    
+    <script src="./js/book-data.js"></script>
+    <script src="./js/book.js"></script>
+    <script src="./js/bookshelf.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

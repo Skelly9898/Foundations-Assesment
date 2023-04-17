@@ -1,0 +1,140 @@
+body {
+background-image: url('https://cdn.wallpapersafari.com/79/26/OR6dW5.jpg');
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#subHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.commentSection {
+    width: 100%;
+}
+
+.navButton, label, .sort, .newBookHeader, .commentSection, .text, h1, .addCommentButton, .lorem {
+    color: floralwhite;
+}
+
+.newBookHeader {
+    width: 100%;
+    margin-left: 8%;
+}
+
+.navButton:hover{
+    color: blue;
+}
+
+.commentButton {
+    color: floralwhite;
+    background-color: darkgoldenrod;
+    width: 75%;
+    margin: 4%;
+    border-radius: 5%;
+    height: 30px;
+}
+
+.commentLine{
+    width: 100%;
+}
+
+.commentBox {
+    width: 60%;
+    height: 40px;
+    margin-top: 3%;
+}
+
+#newBookButton {
+    margin-left: 5%;
+    margin-top: 10px;    
+}
+
+#inputArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+#sortArea {
+    margin-right: 1%;
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: solid 1px red; */
+}
+
+.sortButtons, #newBookButton {
+    color: floralwhite;
+    background-color: darkgoldenrod;
+    height: 25px;
+    width: 75px;
+    margin: 2%;
+}
+
+.sort {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#navMenu{
+    margin: 10px;
+    background-color: darkgoldenrod;
+}
+
+.addCommentButton {
+    background-color: darkgoldenrod;
+    border-radius: 10%;
+    width: 45%;
+    height: 8%;
+    font-size: medium;
+}
+
+.language{
+    width: 100%;
+}
+
+.books {
+    background-image: url('bookBackground.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 15%;
+    height: 700px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scrollbar-width: none;
+    border: 3px solid black;
+}
+
+.books::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+  }
+
+.welcomeText {
+    color: floralwhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+}
+
+button:hover {
+    cursor: pointer;
+}
